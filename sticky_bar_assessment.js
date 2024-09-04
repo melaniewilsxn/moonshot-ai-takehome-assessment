@@ -1,5 +1,6 @@
 // Create  sticky bar element
 function createStickyBar() {
+
     // Create div for sticky bar
     const stickyBar = document.createElement('div');
     stickyBar.className = 'sticky-add-to-cart';
@@ -24,7 +25,7 @@ function createStickyBar() {
     button.innerText = 'Add to Cart';
     button.setAttribute('style', `
         padding: 10px 20px;
-        font-size: 16px;
+        font-size: 28px;
         cursor: pointer;
         color: white;
     `);
